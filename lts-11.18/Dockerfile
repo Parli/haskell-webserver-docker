@@ -9,3 +9,4 @@ RUN stack build lens --resolver lts-11.18
 RUN stack build aeson --resolver lts-11.18
 RUN stack build http-conduit --resolver lts-11.18
 RUN stack build servant-server --resolver lts-11.18
+RUN stack build magicbane --resolver lts-11.18
